@@ -1,0 +1,36 @@
+# Virtual Environment
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# IDE settings
+.vscode/
+.idea/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Testing
+.coverage
+htmlcov/
+
+# Local development
+*.sqlite
+*.db
+db/backups/*
+!db/backups/.gitkeep
+
+# Project specific
+ollama_data/
+.streamlit/secrets.toml
+
+# Logs
+*.log
+logs/

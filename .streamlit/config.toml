@@ -1,0 +1,24 @@
+[server]
+runOnSave = true
+port = 8501
+address = "localhost"
+address = "0.0.0.0"  # Changed from "localhost" to allow external connections
+enableCORS = false   # Add this to allow cross-origin requests
+
+[browser]
+serverAddress = "localhost"
+gatherUsageStats = false
+
+[theme]
+base = "light"
+primaryColor = "#FF4B4B"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F2F6"
+textColor = "#262730"
+
+[logger]
+level = "info"
+
+[client]
+showErrorDetails = true
+toolbarMode = "developer"
